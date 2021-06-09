@@ -5,7 +5,7 @@ import Like from "../common/like";
 class MoviesTable extends Component {
     setSort = path => {
         //改成{}因为state里面声明的对象？
-        const sortColumn = {...this.props.sortColumn}
+        const sortColumn = {...this.props.sortColumn} 
         sortColumn.path = path
         //不能直接写成 sortColumn.order = "asc" ? "desc" : "asc"
         sortColumn.order = sortColumn.order === 'asc' ? 'desc' : 'asc'

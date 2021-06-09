@@ -6,7 +6,7 @@ import List from "./list";
 import {  getGenres } from "../services/fakeGenreService";
 import {  getMovies } from "../services/fakeMovieService";
 import MoviesTable from "./moviesTable";
-//develop tool怎么用？
+
 class Movies extends Component {
   state = {
     upMovies: [],
